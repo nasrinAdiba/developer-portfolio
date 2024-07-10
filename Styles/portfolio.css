@@ -1,0 +1,18 @@
+
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/*nav style*/
+
+nav{
+    display: flex;
+}
+
+#nav-text{
+    font-weight: 800;
+    font-size: 28px;
+}
