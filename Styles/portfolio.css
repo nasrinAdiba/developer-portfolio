@@ -222,6 +222,21 @@ main{
 .card{
     padding: 40px;
 }
+.card h3{
+    font-weight: 800;
+    font-size: 24px;
+    color: #0D1321;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #555A63;
+}
+.card a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #0D1321;
+}
 .card-1{
     
     background-color: #FFF6F4;
