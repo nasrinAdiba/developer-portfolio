@@ -30,7 +30,7 @@ nav{
     color: #3D424D;
     background-color: white;
     border-radius: 8px;
-    border: 0.5px solid #3D424D;
+    border: 1px solid #3D424D;
     padding: 17px 24px;
     
 }
@@ -42,6 +42,9 @@ nav{
     flex-direction: column;
     align-items: center;
     padding: 26px 221px;
+    background-image: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
 }
 .banner img{
     width: 240px;
@@ -53,7 +56,7 @@ nav{
     font-size: 48px;
     color: #0D1321;
     text-align: center;
-    margin-bottom: 24px;
+    
 }
 .banner p{
     font-weight: 400;
@@ -63,6 +66,7 @@ nav{
     margin-bottom: 32px;
 }
 .btn-secondary{
+    margin-top: 32px;
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
@@ -72,4 +76,93 @@ nav{
     font-size: 20px;
     background-color: #0D1321;
     color: white;
+    border: none;
+}
+
+
+/* main styles */
+
+main{
+    margin: 70px 150px 90px;
+}
+
+.section-first{
+    background-color: #FAFAFB;
+    padding: 70px 0 80px 0;
+}
+.part-1{
+    text-align: center;
+    margin: 0 135px 48px;
+}
+
+.part-1 h3{
+    color: #0D1321;
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 24px;
+    
+}
+
+.part-1 p{
+    color:#3D424D;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
+
+.part-2{
+    display: flex;
+    margin: 48px 100px;
+    padding: 58px 45px;
+    text-align: left;
+    background-image: linear-gradient(to right, #FFF, #FAFAFB);
+    border-radius: 12px;
+}
+#linear{
+    padding: 58px 45px;
+    background-image: linear-gradient(to right, #FAFAFB, #FFF);
+    border-radius: 12px;
+}
+.part-2 img{
+    height: 240px;
+    width: 240px;
+}
+.card{
+    
+    margin-right: 98px;
+}
+.card h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #555A63;
+}
+.card p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3D424D;
+}
+.card-2{
+    margin-left: 80px;
+}
+.card-2 h3{
+    font-weight: 700;
+    font-size: 24px;
+    color: #555A63;
+}
+.card-2 p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #3D424D;
+}
+.btn{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #555A63;
+    border: 0.5px solid #555A63;
+    padding: 12px 20px;
+    margin-top: 32px;
+    
 }
