@@ -88,7 +88,7 @@ main{
 
 .section-first{
     background-color: #FAFAFB;
-    padding: 70px 0 80px 0;
+    padding: 70px 0 40px 0;
 }
 .part-1{
     text-align: center;
@@ -164,5 +164,32 @@ main{
     border: 0.5px solid #555A63;
     padding: 12px 20px;
     margin-top: 32px;
-    
+}
+
+
+/* section-second styles*/
+
+.section-second{
+    margin-top: 53px;
+    text-align: center;
+}
+
+.section-second h2{
+    font-weight: 800;
+    font-size: 32px;
+    color: #0D1321;
+}
+
+.section-second p{
+    margin: 24px 140px 48px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555A63;
+}
+
+.section-second img{
+    margin: 25px 0 60px;
+    width: 800px;
+    height: 400px;
+    border-radius: 16px;
 }
