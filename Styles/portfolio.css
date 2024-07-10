@@ -10,9 +10,66 @@
 
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
 }
 
-#nav-text{
+#nav-title{
     font-weight: 800;
     font-size: 28px;
+    color: #0D1321;
+}
+
+.btn-primary{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3D424D;
+    background-color: white;
+    border-radius: 8px;
+    border: 0.5px solid #3D424D;
+    padding: 17px 24px;
+    
+}
+
+/*banner style*/
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 221px;
+}
+.banner img{
+    width: 240px;
+    height: 240px;
+    margin-bottom: 32px;
+}
+.banner h1{
+    font-weight: 800;
+    font-size: 48px;
+    color: #0D1321;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.banner p{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #3D424D;
+    margin-bottom: 32px;
+}
+.btn-secondary{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 21px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #0D1321;
+    color: white;
 }
